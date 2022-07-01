@@ -1,4 +1,3 @@
-import React from "react";
 import {
   View,
   Text,
@@ -48,7 +47,7 @@ const Details = ({ route, navigation }) => {
         flex: 1,
       }}
     >
-      <FocusedStatusBar
+      <StatusBar
         barStyle="dark-content"
         backgroundColor="transparent"
         transLucent={true}

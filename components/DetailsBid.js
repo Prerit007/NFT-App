@@ -23,8 +23,8 @@ const DetailsBid = () => {
       <View>
         <Text
           style={{
-            fontSize: SIZES.small,
             fontFamily: FONTS.semiBold,
+            fontSize: SIZES.small,
             color: COLORS.primary,
           }}
         >
@@ -32,8 +32,8 @@ const DetailsBid = () => {
         </Text>
         <Text
           style={{
-            fontSize: SIZES.small - 2,
             fontFamily: FONTS.regular,
+            fontSize: SIZES.small - 2,
             color: COLORS.secondary,
             marginTop: 3,
           }}
