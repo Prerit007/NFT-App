@@ -27,7 +27,7 @@ export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
   );
 };
 
-export const RectButton = (minWidth, fontSize, handlePress, ...props) => {
+export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
   return (
     <TouchableOpacity
       style={{
@@ -41,7 +41,7 @@ export const RectButton = (minWidth, fontSize, handlePress, ...props) => {
     >
       <Text
         style={{
-          fontFanily: FONTS.semiBold,
+          fontFamily: FONTS.semiBold,
           fontSize: fontSize,
           color: COLORS.white,
           textAlign: "center",

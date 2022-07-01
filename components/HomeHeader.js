@@ -1,6 +1,6 @@
 import { View, Text, Image, TextInput } from "react-native";
 import { COLORS, FONTS, SIZES, assets } from "../constants";
-const HomeHeader = ({ onSeacrh }) => {
+const HomeHeader = ({ onSearch }) => {
   return (
     <View
       style={{
@@ -46,7 +46,7 @@ const HomeHeader = ({ onSeacrh }) => {
           style={{
             fontFamily: FONTS.regular,
             fontSize: SIZES.small,
-            color: COLORS.primary,
+            color: COLORS.white,
           }}
         >
           Hello Victoria ! 👋
@@ -84,7 +84,7 @@ const HomeHeader = ({ onSeacrh }) => {
           <TextInput
             placeholder="Search NFTs"
             style={{ flex: 1 }}
-            onChangeText={onSeacrh}
+            onChangeText={onSearch}
           />
         </View>
       </View>

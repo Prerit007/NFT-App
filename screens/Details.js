@@ -47,10 +47,10 @@ const Details = ({ route, navigation }) => {
         flex: 1,
       }}
     >
-      <StatusBar
+      <FocusedStatusBar
         barStyle="dark-content"
         backgroundColor="transparent"
-        transLucent={true}
+        translucent={true}
       />
 
       <View
@@ -72,7 +72,7 @@ const Details = ({ route, navigation }) => {
         data={data.bids}
         renderItem={({ item }) => <DetailsBid bid={item} />}
         keyExtractor={(item) => item.id}
-        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: SIZES.extraLarge * 3 }}
         ListHeaderComponent={() => (
           <React.Fragment>
