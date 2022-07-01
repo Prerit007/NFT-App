@@ -1,8 +1,8 @@
-import React from "react";
+import { useState } from "react";
 import { Text } from "react-native";
 
-const details = () => {
+const Details = () => {
   <Text>Details</Text>;
 };
 
-export default details;
+export default Details;
