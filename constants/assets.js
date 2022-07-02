@@ -12,11 +12,17 @@ import nft04 from "../assets/images/nft04.jpeg";
 import nft05 from "../assets/images/nft05.jpeg";
 import nft06 from "../assets/images/nft06.jpeg";
 import nft07 from "../assets/images/nft07.jpeg";
+import nft08 from "../assets/images/nft08.jpg";
+import nft09 from "../assets/images/nft09.jpeg";
+import nft10 from "../assets/images/nft10.jpg";
+import nft11 from "../assets/images/nft11.jpg";
+import nft12 from "../assets/images/nft12.jpg";
 
 import person01 from "../assets/images/person01.png";
 import person02 from "../assets/images/person02.png";
 import person03 from "../assets/images/person03.png";
 import person04 from "../assets/images/person04.png";
+import person05 from "../assets/images/person05.png";
 
 export default {
   badge,
@@ -33,9 +39,15 @@ export default {
   nft05,
   nft06,
   nft07,
+  nft08,
+  nft09,
+  nft10,
+  nft11,
+  nft12,
 
   person01,
   person02,
   person03,
   person04,
+  person05,
 };

@@ -23,7 +23,7 @@ const HomeHeader = ({ onSearch }) => {
 
         <View style={{ width: 45, height: 45 }}>
           <Image
-            source={assets.person01}
+            source={assets.person05}
             resizeMode="contain"
             style={{ width: "100%", height: "100%" }}
           />
@@ -49,7 +49,7 @@ const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello Victoria ! 👋
+          Hello Henry ! 👋
         </Text>
 
         <Text

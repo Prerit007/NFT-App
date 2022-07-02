@@ -69,7 +69,7 @@ export const ImageCmp = ({ imgUrl, index }) => {
 export const People = () => {
   return (
     <View style={{ flexDirection: "row" }}>
-      {[assets.person03, assets.person02, assets.person04].map(
+      {[assets.person03, assets.person02, assets.person04, assets.person01].map(
         (imgUrl, index) => (
           <ImageCmp imgUrl={imgUrl} index={index} key={`People-${index}`} />
         )
@@ -108,7 +108,7 @@ export const EndDate = () => {
           color: COLORS.primary,
         }}
       >
-        12h 30m
+        10h 30m
       </Text>
     </View>
   );
