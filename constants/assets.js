@@ -14,7 +14,7 @@ import nft06 from "../assets/images/nft06.jpeg";
 import nft07 from "../assets/images/nft07.jpeg";
 import nft08 from "../assets/images/nft08.jpg";
 import nft09 from "../assets/images/nft09.jpeg";
-import nft10 from "../assets/images/nft10.jpg";
+import nft10 from "../assets/images/nft10.png";
 import nft11 from "../assets/images/nft11.jpg";
 import nft12 from "../assets/images/nft12.jpg";
 
