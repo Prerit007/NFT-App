@@ -191,10 +191,11 @@ const NFTData = [
   },
   {
     id: "NFT-08",
-    name: "",
+    name: " NEON “GREEK”",
     creator: "",
     price: 5.75,
-    description: "",
+    description:
+      "The art piece is a fusion of old take and a new take on life.",
     image: assets.nft08,
     bids: [
       {
@@ -254,10 +255,11 @@ const NFTData = [
   },
   {
     id: "NFT-10",
-    name: "",
+    name: "HI-GH SLEEP",
     creator: "",
     price: 11.75,
-    description: "",
+    description:
+      "The art piece is a take on the fact that “SLEEP WILL FIND YOU WHEREVER YOU ARE”.",
     image: assets.nft10,
     bids: [
       {
@@ -285,10 +287,11 @@ const NFTData = [
   },
   {
     id: "NFT-11",
-    name: "",
+    name: "IRACEBETH OF CRIMS",
     creator: "",
     price: 2.75,
-    description: "",
+    description:
+      "The art piece shows a solitary heart, the queen of Hearts which resides in the Iracebeth of Crims.",
     image: assets.nft11,
     bids: [
       {
@@ -316,11 +319,170 @@ const NFTData = [
   },
   {
     id: "NFT-12",
-    name: "",
+    name: "THE LAVENDER GETAWAY",
     creator: "",
     price: 8.75,
-    description: "",
+    description:
+      "The art piece depicts the getaway from the fast lifestyle into the lavender meadows.",
     image: assets.nft12,
+    bids: [
+      {
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 8.75,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 9.0,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 10.25,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-13",
+    name: "CUBES OF SECRETS",
+    creator: "",
+    price: 8.75,
+    description: "The art piece represents secrets being caged.",
+    image: assets.nft13,
+    bids: [
+      {
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 8.75,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 9.0,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 10.25,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-14",
+    name: "POMPEII",
+    creator: "",
+    price: 8.75,
+    description:
+      "In the art piece, Wisteria vines takes us to the city of Pompeii.",
+    image: assets.nft14,
+    bids: [
+      {
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 8.75,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 9.0,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 10.25,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-15",
+    name: "HOME IS WHERE THE HEART IS",
+    creator: "",
+    price: 8.75,
+    description:
+      "The art piece shows that the heart decides the setting – it could even be taking a bath in the middle of nowhere.",
+    image: assets.nft15,
+    bids: [
+      {
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 8.75,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 9.0,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 10.25,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-16",
+    name: "BLOODY NATURE",
+    creator: "",
+    price: 8.75,
+    description:
+      "The art piece depicts the nature in its dreamy red colour palette.",
+    image: assets.nft16,
+    bids: [
+      {
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 8.75,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 9.0,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 10.25,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-17",
+    name: "THE NATURAL HIPPIE",
+    creator: "",
+    price: 8.75,
+    description: "The art piece shows a hippie monkey in coastal areas.",
+    image: assets.nft17,
     bids: [
       {
         id: "BID-11",

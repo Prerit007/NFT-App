@@ -17,6 +17,11 @@ import nft09 from "../assets/images/nft09.jpeg";
 import nft10 from "../assets/images/nft10.png";
 import nft11 from "../assets/images/nft11.jpg";
 import nft12 from "../assets/images/nft12.jpg";
+import nft13 from "../assets/images/nft13.jpg";
+import nft14 from "../assets/images/nft14.jpg";
+import nft15 from "../assets/images/nft15.jpg";
+import nft16 from "../assets/images/nft16.jpg";
+import nft17 from "../assets/images/nft17.jpg";
 
 import person01 from "../assets/images/person01.png";
 import person02 from "../assets/images/person02.png";
@@ -44,6 +49,11 @@ export default {
   nft10,
   nft11,
   nft12,
+  nft13,
+  nft14,
+  nft15,
+  nft16,
+  nft17,
 
   person01,
   person02,
